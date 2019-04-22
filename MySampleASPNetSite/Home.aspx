@@ -5,7 +5,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>Test Page</title>
-    <style>        div {
+    <style>
+        div {
             font-size: 48px;
             text-align: center
         }
@@ -14,7 +15,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label runat="server" id="lblWelcomeMessage"></asp:Label>
+            <asp:Label runat="server" ID="lblWelcomeMessage"></asp:Label>
         </div>
     </form>
 </body>
