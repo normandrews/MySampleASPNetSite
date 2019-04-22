@@ -4,8 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+    <title>Test Page</title>
     <style>        div {
-            font-size: 48;
+            font-size: 48px;
             text-align: center
         }
     </style>
