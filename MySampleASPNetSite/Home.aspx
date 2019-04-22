@@ -7,8 +7,11 @@
     <title>Test Page</title>
     <style>
         div {
-            font-size: 48px;
-            text-align: center
+            font-size: 24px;
+            text-align: center;
+        }
+        img {
+            object-fit:contain
         }
     </style>
 </head>
@@ -16,6 +19,8 @@
     <form id="form1" runat="server">
         <div>
             <asp:Label runat="server" ID="lblWelcomeMessage"></asp:Label>
+            <br />
+            <img src="Starr_080601-5253_Phoebastria_immutabilis.jpg" style="height:300px"                />
         </div>
     </form>
 </body>
